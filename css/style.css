@@ -1,0 +1,24 @@
+@charset"utf-8";
+
+html*,::after,::before{
+    box-sizing:border-box;
+}
+html{
+    font-size:14px;
+}
+@media(min-width:768px){
+    html{
+        font-size:16px;
+    }
+}
+body{
+    font-family: sans-serif;
+}
+a{
+    color:#f30;
+}
+img{
+ max-width: 100%;
+ height:auto;
+ vertical-align:bottom;
+}
